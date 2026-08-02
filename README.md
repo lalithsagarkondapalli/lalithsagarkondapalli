@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Hi%20there,%20I%20am%20Lalith%20%F0%9F%91%8B&fontSize=36&fontColor=ffffff&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Hi%20there,%20I%20am%20Lalith%20%F0%9F%91%8B&fontSize=36&fontColor=ffffff" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=AI+Engineer+%7C+GenAI+Engineer;Machine+Learning+Engineer;Building+RAG+%26+Multi-Agent+Systems;5%2B+Years+in+ML+%26+Data+Engineering" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=AI+Engineer+%7C+GenAI+Engineer;Machine+Learning+Engineer;Building+RAG+%26+Multi-Agent+Systems;4.5%2B+Years+in+ML+%26+Data+Engineering" alt="Typing SVG" />
 </a>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=lalithsagarkondapalli&color=58A6FF&style=flat&label=Profile+Views)
@@ -12,11 +12,11 @@
 
 ## 🧠 About Me
 
-- 🤖 AI Engineer with **5+ years** of experience building ML, RAG, and multi-agent systems across healthcare, enterprise, and financial domains
+- 🤖 AI Engineer with **4.5+ years** of experience building ML, RAG, and multi-agent systems across healthcare, enterprise, and financial domains
 - 🔗 I design and ship production LLM systems using **LangChain**, **LangGraph**, and **Azure OpenAI**, with a focus on retrieval quality, evaluation, and monitoring
 - ☁️ Comfortable deploying on **AWS** and **Azure** with Docker, Kubernetes, and Terraform
 - 🏥 Currently a Data Scientist at Morsani College of Medicine, building clinical data pipelines and statistical models
-- 🎓 Pursuing an M.S. in AI & Business Analytics at the University of South Florida (GPA 3.88/4.0)
+- 🎓 M.S. in AI & Business Analytics from the University of South Florida (GPA 3.88/4.0)
 - 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/klalithsagar/)
 
 ## 🛠️ Tech Stack
