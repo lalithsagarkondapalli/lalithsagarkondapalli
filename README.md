@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Hi%20there,%20I%20am%20Lalith%20%F0%9F%91%8B&fontSize=36&fontColor=ffffff" />
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Data+Scientist;4%2B+Years+in+Data+Science+%26+Analytics;Experimentation+%26+Causal+Inference;Pricing+%26+Business+Analytics;Python+%7C+SQL+%7C+R" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Clinical+%26+Healthcare+Data;Data+Import+%7C+Validation+%7C+Reconciliation;Python+%7C+SQL+%7C+XML+%2F+CDISC+ODM;Experimentation+%26+Causal+Inference" alt="Typing SVG" />
 </a>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=lalithsagarkondapalli&color=58A6FF&style=flat&label=Profile+Views)
@@ -12,21 +12,26 @@
 
 ## 🧠 About Me
 
-- 📊 Data Scientist with **4+ years** across data science, analytics, and ML roles, focused on **experimentation, causal inference, and pricing / business analytics**
-- 🏥 Currently a Data Scientist at USF Morsani College of Medicine: propensity-score matching across six observational cohorts on 395,000+ records, and 180+ automated statistical comparisons with confidence intervals
-- 💳 Previously analyzed multi-million-row banking transaction data at Tata Consultancy Services, setting decision thresholds by weighing false positives against investigation cost
-- 🎓 M.S. in AI & Business Analytics, University of South Florida (GPA 3.88/4.0)
+I work with **clinical and healthcare data in Python and SQL**, and I care about the part that makes analysis trustworthy: getting data in correctly, validating it against a spec, and being able to prove nothing was lost or silently changed along the way.
+
+- 🏥 **Data Scientist, USF Morsani College of Medicine:** propensity-score matching across six observational cohorts on **395,000+ records**, and **180+ automated statistical comparisons** with confidence intervals
+- 💳 **Previously at Tata Consultancy Services:** analyzed multi-million-row banking transaction data, setting decision thresholds by weighing false positives against investigation cost
+- 🎓 **M.S. in AI & Business Analytics**, University of South Florida (GPA 3.88/4.0)
 - 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/klalithsagar/) or [email](mailto:lalithsagar.kondapalli.ai@gmail.com)
 
 ## 📌 Featured Projects
 
-| Project | Question | Methods |
+| Project | What it does | Methods |
 |---|---|---|
-| [**iBuyer Offer Engine**](https://github.com/lalithsagarkondapalli/ibuyer-offer-engine) | How should an iBuyer price home offers, and when does it make money? Built on 20,220 real Tampa resales. | Walk-forward LightGBM AVM, conformal intervals, hedonic price index, adverse-selection backtest, ARIMA/ETS forecasting |
-| [**E-mail Campaign Experiment**](https://github.com/lalithsagarkondapalli/email-campaign-experiment) | Which campaign e-mail should a retailer send, and to whom? A real 64,000-customer randomized test. | SQL validation, SRM and balance checks, Holm-corrected effects, bootstrap CIs, heterogeneity tests, uplift modeling |
-| [**Marketplace Data Warehouse**](https://github.com/lalithsagarkondapalli/marketplace-dw) | Monthly ELT pipeline on the public Olist e-commerce dataset | Airflow, SQL, data modeling |
+| [**Clinical EDC Import Validator**](https://github.com/lalithsagarkondapalli/clinical-edc-import-validator) | Spec-driven import of CSV / Excel / JSON / XML clinical transfers into a **CDISC ODM 1.3.2** EDC import file, where every record is loaded or rejected with a reason | XSD (key/keyref), XPath, XSLT, record-level validation rules, 3-way reconciliation (Python · XPath · SQL), hash-chained audit trail, PowerShell, SQL*Loader, 50 tests traced to requirements, CI |
+| [**LLM Judge Eval**](https://github.com/lalithsagarkondapalli/llm-judge-eval) | Rubric-based LLM judge for **medical QA**, validated against blind human labels | Human-agreement metrics, rubric design, AI output reviewed before it is trusted |
+| [**Marketplace Data Warehouse**](https://github.com/lalithsagarkondapalli/marketplace-dw) | Monthly ELT pipeline on the public Olist e-commerce dataset | Airflow, dbt star schema, SCD Type 2, PostgreSQL, idempotent batches, schema contracts, 50 dbt data tests |
+| [**E-mail Campaign Experiment**](https://github.com/lalithsagarkondapalli/email-campaign-experiment) | Which campaign e-mail should a retailer send, and to whom? A real 64,000-customer randomized test | SQL validation, SRM and balance checks, Holm-corrected effects, bootstrap CIs, uplift modeling |
+| [**iBuyer Offer Engine**](https://github.com/lalithsagarkondapalli/ibuyer-offer-engine) | How should an iBuyer price home offers? Built on 20,220 real Tampa resales | Walk-forward LightGBM AVM, conformal intervals, hedonic price index, adverse-selection backtest |
 
 ## 🛠️ Tech Stack
+
+**Clinical data & validation:** CDISC ODM 1.3.2 · EDC data imports · XML / XSD / XPath / XSLT · discrepancy management · reconciliation · audit trails · requirements traceability · regression baselines · GCP / 21 CFR Part 11 awareness
 
 **Statistics & Experimentation:** A/B testing · power analysis & MDE · hypothesis testing · causal inference (propensity scores) · regression · Bayesian inference · forecasting (ARIMA, ETS) · conformal prediction
 
@@ -35,9 +40,19 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![XML](https://img.shields.io/badge/XML%20%2F%20XSLT-005A9C?style=for-the-badge&logo=xml&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Statsmodels](https://img.shields.io/badge/Statsmodels-4051B5?style=for-the-badge)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+
+**Engineering Practice**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
 
 **Machine Learning**
 
@@ -53,6 +68,8 @@
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
+**AI-assisted development:** I use AI coding tools for drafting and explanation, and treat every output as unreviewed until I've read it and it passes tests.
 
 ## 📊 GitHub Stats
 
@@ -70,6 +87,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/klalithsagar/)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lalithsagar.kondapalli.ai@gmail.com)
 
-*Always happy to talk about experimentation, causal inference, and pricing problems.*
+*Open to clinical data programming and data management roles. Happy to walk through any repo here.*
 
 </div>
