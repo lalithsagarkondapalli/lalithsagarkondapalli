@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Hi%20there,%20I%20am%20Lalith%20%F0%9F%91%8B&fontSize=36&fontColor=ffffff" />
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Clinical+%26+Healthcare+Data;Data+Import+%7C+Validation+%7C+Reconciliation;Python+%7C+SQL+%7C+XML+%2F+CDISC+ODM;Experimentation+%26+Causal+Inference" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Data+Scientist+%26+Data+Analyst;Clinical+%26+Healthcare+Data;Data+Import+%7C+Validation+%7C+Reconciliation;Python+%7C+SQL+%7C+XML+%2F+CDISC+ODM;Experimentation+%26+Causal+Inference" alt="Typing SVG" />
 </a>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=lalithsagarkondapalli&color=58A6FF&style=flat&label=Profile+Views)
@@ -12,11 +12,14 @@
 
 ## 🧠 About Me
 
-I work with **clinical and healthcare data in Python and SQL**, and I care about the part that makes analysis trustworthy: getting data in correctly, validating it against a spec, and being able to prove nothing was lost or silently changed along the way.
+Data Scientist & Data Analyst with **4+ years** of turning large, messy datasets into results people can trust, in healthcare research at USF and in banking at TCS. My focus now is **clinical data programming**: importing study data, validating it against specifications, and proving with tests and reconciliation that nothing was lost or silently changed along the way.
 
 - 🏥 **Data Scientist, USF Morsani College of Medicine:** propensity-score matching across six observational cohorts on **395,000+ records**, and **180+ automated statistical comparisons** with confidence intervals
-- 💳 **Previously at Tata Consultancy Services:** analyzed multi-million-row banking transaction data, setting decision thresholds by weighing false positives against investigation cost
+- 💳 **Tata Consultancy Services:** analyzed multi-million-row banking transaction data, setting decision thresholds by weighing false positives against investigation cost
 - 🎓 **M.S. in AI & Business Analytics**, University of South Florida (GPA 3.88/4.0)
+- 🔬 **Currently building:** clinical data import and validation tooling (CDISC ODM, XML/XSD, SQL) and an LLM judge for medical QA
+- 🤖 **How I use AI:** for drafting and explaining code, with tests and human review before anything ships
+- 🎯 **Open to:** clinical data programmer, data analyst and data management roles
 - 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/klalithsagar/) or [email](mailto:lalithsagar.kondapalli.ai@gmail.com)
 
 ## 📌 Featured Projects
@@ -68,8 +71,6 @@ I work with **clinical and healthcare data in Python and SQL**, and I care about
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-**AI-assisted development:** I use AI coding tools for drafting and explanation, and treat every output as unreviewed until I've read it and it passes tests.
 
 ## 📊 GitHub Stats
 
