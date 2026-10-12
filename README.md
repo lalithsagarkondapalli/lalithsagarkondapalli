@@ -1,93 +1,41 @@
-<div align="center">
+# Hi, I'm Lalith 👋
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=Hi%20there,%20I%20am%20Lalith%20%F0%9F%91%8B&fontSize=36&fontColor=ffffff" />
+**I build complete products with AI — from an open question to something people use — and I bring 4+ years of data work to knowing whether they're working.**
 
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&lines=Data+Scientist+%26+Data+Analyst;Clinical+%26+Healthcare+Data;Data+Import+%7C+Validation+%7C+Reconciliation;Python+%7C+SQL+%7C+XML+%2F+CDISC+ODM;Experimentation+%26+Causal+Inference" alt="Typing SVG" />
-</a>
+I take an idea through scoping, interface, backend, data and AI, and I stay accountable for what ships: tests, customer-data handling, and measuring what happens after launch. I use AI (Claude, GPT) heavily to explore, prototype, implement and debug, and I verify its output with tests and evals rather than trusting it.
 
-![Profile Views](https://komarev.com/ghpvc/?username=lalithsagarkondapalli&color=58A6FF&style=flat&label=Profile+Views)
+- 🛠️ **Building:** full-stack products in Python (FastAPI) with LLM features — structured outputs, fallbacks, evals, human-in-the-loop
+- 📊 **Background:** Data Scientist at **USF Morsani College of Medicine** (395,000+ records, 180+ automated statistical comparisons) and data analyst at **Tata Consultancy Services** (multi-million-row banking data)
+- 🎓 **M.S. in AI & Business Analytics**, University of South Florida (GPA 3.88)
+- 🎯 **Open to:** product engineer, AI engineer and full-stack roles
+- 📫 [LinkedIn](https://www.linkedin.com/in/klalithsagar/) · [Email](mailto:lalithsagar.kondapalli.ai@gmail.com)
 
-</div>
+## 📌 Products I've built end to end
 
-## 🧠 About Me
-
-Data Scientist & Data Analyst with **4+ years** of turning large, messy datasets into results people can trust, in healthcare research at USF and in banking at TCS. My focus now is **clinical data programming**: importing study data, validating it against specifications, and proving with tests and reconciliation that nothing was lost or silently changed along the way.
-
-- 🏥 **Data Scientist, USF Morsani College of Medicine:** propensity-score matching across six observational cohorts on **395,000+ records**, and **180+ automated statistical comparisons** with confidence intervals
-- 💳 **Tata Consultancy Services:** analyzed multi-million-row banking transaction data, setting decision thresholds by weighing false positives against investigation cost
-- 🎓 **M.S. in AI & Business Analytics**, University of South Florida (GPA 3.88/4.0)
-- 🔬 **Currently building:** clinical data import and validation tooling (CDISC ODM, XML/XSD, SQL) and an LLM judge for medical QA
-- 🤖 **How I use AI:** for drafting and explaining code, with tests and human review before anything ships
-- 🎯 **Open to:** clinical data programmer, data analyst and data management roles
-- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/klalithsagar/) or [email](mailto:lalithsagar.kondapalli.ai@gmail.com)
-
-## 📌 Featured Projects
-
-| Project | What it does | Methods |
+| Project | The problem | What I owned |
 |---|---|---|
-| [**Clinical EDC Import Validator**](https://github.com/lalithsagarkondapalli/clinical-edc-import-validator) | Spec-driven import of CSV / Excel / JSON / XML clinical transfers into a **CDISC ODM 1.3.2** EDC import file, where every record is loaded or rejected with a reason | XSD (key/keyref), XPath, XSLT, record-level validation rules, 3-way reconciliation (Python · XPath · SQL), hash-chained audit trail, PowerShell, SQL*Loader, 50 tests traced to requirements, CI |
-| [**LLM Judge Eval**](https://github.com/lalithsagarkondapalli/llm-judge-eval) | Rubric-based LLM judge for **medical QA**, with a protocol to validate it against blind human labels (results in progress) | Weighted Cohen's κ, known-error control set, length-bias tests, error-taxonomy audit |
-| [**Marketplace Data Warehouse**](https://github.com/lalithsagarkondapalli/marketplace-dw) | Monthly ELT pipeline on the public Olist e-commerce dataset | Airflow, dbt star schema, SCD Type 2, PostgreSQL, idempotent batches, schema contracts, 50 dbt data tests |
-| [**E-mail Campaign Experiment**](https://github.com/lalithsagarkondapalli/email-campaign-experiment) | Which campaign e-mail should a retailer send, and to whom? A real 64,000-customer randomized test | SQL validation, SRM and balance checks, Holm-corrected effects, bootstrap CIs, uplift modeling |
-| [**iBuyer Offer Engine**](https://github.com/lalithsagarkondapalli/ibuyer-offer-engine) | How should an iBuyer price home offers? Built on 20,220 real Tampa resales | Walk-forward LightGBM AVM, conformal intervals, hedonic price index, adverse-selection backtest |
+| [**Pulse**](https://github.com/lalithsagarkondapalli/pulse) | Brands collect NPS but don't know what to fix, and unhappy customers never hear back | Whole product: mobile survey with instant rewards, Claude-tagged themes with PII redaction and fallback, dashboard ranking themes by detractors, consent-gated close-the-loop queue. FastAPI, SQLite, 22 tests incl. concurrency, CI, [decision log](https://github.com/lalithsagarkondapalli/pulse/blob/main/DECISIONS.md) |
+| [**Computer-Use Automation System**](https://github.com/lalithsagarkondapalli/computer-use-automation-system) | LLM browser agents are slow, costly and unpredictable on every run | An LLM discovers a workflow once; it's compiled into a typed artifact that replays deterministically with zero LLM calls, with policy checks and same-session human handoff. 229 tests, real model evidence including failures |
+| [**LLM Judge Eval**](https://github.com/lalithsagarkondapalli/llm-judge-eval) | Can you trust an LLM to grade answers? | Rubric judge with strict JSON output, blind human-labelling tool, and the stats to validate it (weighted κ, known-error controls, length-bias tests) |
+| [**Clinical EDC Import Validator**](https://github.com/lalithsagarkondapalli/clinical-edc-import-validator) | Partner data arrives in four formats and nothing may be lost or silently changed | Spec-driven integration pipeline: every record loaded or rejected with a reason, 3-way reconciliation, hash-chained audit trail, 50 tests traced to requirements |
 
-## 🛠️ Tech Stack
+## 📈 Data & experimentation (how I decide what's working)
 
-**Clinical data & validation:** CDISC ODM 1.3.2 · EDC data imports · XML / XSD / XPath / XSLT · discrepancy management · reconciliation · audit trails · requirements traceability · regression baselines · GCP / 21 CFR Part 11 awareness
+| Project | What it answers |
+|---|---|
+| [**E-mail Campaign Experiment**](https://github.com/lalithsagarkondapalli/email-campaign-experiment) | Which campaign e-mail should a retailer send, and to whom? 64,000-customer randomized test: SRM and balance checks, Holm-corrected effects, uplift targeting — and the call *not* to build targeting |
+| [**Marketplace Data Warehouse**](https://github.com/lalithsagarkondapalli/marketplace-dw) | Monthly ELT for an e-commerce marketplace: Airflow, dbt star schema, SCD Type 2, 50 data tests |
+| [**iBuyer Offer Engine**](https://github.com/lalithsagarkondapalli/ibuyer-offer-engine) | How to price home offers under uncertainty: conformal intervals and an adverse-selection backtest on 20,220 resales |
 
-**Statistics & Experimentation:** A/B testing · power analysis & MDE · hypothesis testing · causal inference (propensity scores) · regression · Bayesian inference · forecasting (ARIMA, ETS) · conformal prediction
+## 🤖 How I build with AI
 
-**Languages & Analysis**
+1. **Scope first.** Write down the customer problem and what's out of scope before generating any code.
+2. **Let AI draft, then verify by behaviour.** Tests on the real user path, screenshots of the real UI, evals on labelled data — not just reading the diff.
+3. **Never put the model on the critical path without a fallback.** Validate outputs against a schema, redact customer data before it leaves the server, degrade gracefully.
+4. **Keep the evidence honest.** Failures, limitations and "not launched yet" are written down, not hidden.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![XML](https://img.shields.io/badge/XML%20%2F%20XSLT-005A9C?style=for-the-badge&logo=xml&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Statsmodels](https://img.shields.io/badge/Statsmodels-4051B5?style=for-the-badge)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+## 🛠️ Stack
 
-**Engineering Practice**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
-
-**Machine Learning**
-
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![LightGBM](https://img.shields.io/badge/LightGBM-9ACD32?style=for-the-badge)
-![XGBoost](https://img.shields.io/badge/XGBoost-0E7C61?style=for-the-badge)
-
-**Data Platforms & BI**
-
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=lalithsagarkondapalli&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lalithsagarkondapalli&layout=compact&theme=tokyonight" />
-
-</div>
-
-## 🤝 Let's Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/klalithsagar/)
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lalithsagar.kondapalli.ai@gmail.com)
-
-*Open to clinical data programming and data management roles. Happy to walk through any repo here.*
-
-</div>
+**Product:** Python · FastAPI · SQL (PostgreSQL, SQLite, DuckDB) · HTML/CSS/Jinja · REST APIs · Playwright · Docker · GitHub Actions · pytest  
+**AI:** Anthropic & OpenAI APIs · structured outputs · RAG (FAISS) · LLM evaluation · agents with human-in-the-loop  
+**Data:** pandas · statsmodels · scikit-learn · LightGBM · Airflow · dbt · Spark/Databricks · Snowflake · MLflow · A/B testing & causal inference
